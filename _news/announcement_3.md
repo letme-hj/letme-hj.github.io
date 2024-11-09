@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started a new journey as a visiting scholar in ChangeLing Lab at LTI, Carnegie Mellon University!
+I started a new journey as a visiting scholar in [ChangeLing Lab](https://changelinglab.github.io/) at Language Technologies Institute, Carnegie Mellon University!
