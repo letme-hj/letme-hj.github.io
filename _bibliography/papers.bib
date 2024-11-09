@@ -3,12 +3,45 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{sohn2024zero,
-  author =       {Sohn, Jimin and Jung, Haeji and Cheng, Alex and Kang, Jooeon and Du, Yilin and Mortensen, David R.},
-  title =        {Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages},
-  booktitle =     {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-  venue =        "EMNLP",
-  keywords =      {phonology, cross-lingual, NER},
-  year = 2024
+@inproceedings{sohn-etal-2024-zero,
+    title = "Zero-Shot Cross-Lingual {NER} Using Phonemic Representations for Low-Resource Languages",
+    author = "Sohn, Jimin  and
+      Jung, Haeji  and
+      Cheng, Alex  and
+      Kang, Jooeon  and
+      Du, Yilin  and
+      Mortensen, David",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.753",
+    pages = "13595--13602",
+    abstract = "Existing zero-shot cross-lingual NER approaches require substantial prior knowledge of the target language, which is impractical for low-resource languages.In this paper, we propose a novel approach to NER using phonemic representation based on the International Phonetic Alphabet (IPA) to bridge the gap between representations of different languages.Our experiments show that our method significantly outperforms baseline models in extremely low-resource languages, with the highest average F1 score (46.38{\%}) and lowest standard deviation (12.67), particularly demonstrating its robustness with non-Latin scripts. Ourcodes are available at https://github.com/Gabriel819/zeroshot{\_}ner.git",
 }
 
+
+@inproceedings{jung-etal-2024-mitigating,
+    title = "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
+    author = "Jung, Haeji  and
+      Oh, Changdae  and
+      Kang, Jooeon  and
+      Sohn, Jimin  and
+      Song, Kyungwoo  and
+      Kim, Jinkyu  and
+      Mortensen, David",
+    editor = {S{\"a}lev{\"a}, Jonne  and
+      Owodunni, Abraham},
+    booktitle = "Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL 2024)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.mrl-1.16",
+    pages = "200--211",
+    abstract = "Approaches to improving multilingual language understanding often struggle with significant performance gaps between high-resource and low-resource languages. While there are efforts to align the languages in a single latent space to mitigate such gaps, how different input-level representations influence such gaps has not been investigated, particularly with phonemic inputs. We hypothesize that the performance gaps are affected by representation discrepancies between those languages, and revisit the use of phonemic representations as a means to mitigate these discrepancies.To demonstrate the effectiveness of phonemic representations, we present experiments on three representative cross-lingual tasks on 12 languages in total. The results show that phonemic representations exhibit higher similarities between languages compared to orthographic representations, and it consistently outperforms grapheme-based baseline model on languages that are relatively low-resourced.We present quantitative evidence from three cross-lingual tasks that demonstrate the effectiveness of phonemic representations, and it is further justified by a theoretical analysis of the cross-lingual performance gap.",
+}
