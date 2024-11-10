@@ -22,7 +22,7 @@
       }
     ]
   },
-  "research experience": [
+  "work": [
     {
       "name": "ChangeLing Lab, Carnegie Mellon University",
       "position": "Visiting Scholar",
@@ -143,39 +143,11 @@
 
   "publications": [
     {
-      "name": "Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages",
-      "publisher": "Jimin Sohn*, Haeji Jung*, Alex Cheng, Jooeon Kang, Yilin Du, David Mortensen",
-      "releaseDate": "2024",
-      "url": "https://aclanthology.org/2024.emnlp-main.753",
-      "summary": "EMNLP 2024"
-    },
-    {
-      "name": "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
-      "publisher": "Haeji Jung, Changdae Oh, Jooeon Kang, Jimin Sohn, Kyungwoo Song, Jinkyu Kim, David Mortensen",
-      "releaseDate": "2024",
-      "url": "https://aclanthology.org/2024.mrl-1.16",
-      "summary": "Multilingual Representation Learning Workshop (co-located with EMNLP 2024)"
-    },
-    {
-      "name": "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions",
-      "publisher": "Seokha Moon, Hyun Woo, Hongbeen Park, <b>Haeji Jung</b>, Reza Mahjourian, Hyung-gun Chi, Hyerin Kim, Sangpil Kim, Jinkyu Kim",
-      "releaseDate": "2024",
-      "url": "https://doi.org/10.1007/978-3-031-72658-3_21",
-      "summary": "ECCV 2024"
-    },
-    {
-      "name": "Text-driven Prototype Learning for Few-Shot Class-Incremental Learning",
-      "publisher": "Seongbeom Park*, Haeji Jung*, Daewon Chae, Hyunju Yun, Sungyoon Kim, Suhong Moon, Jinkyu Kim, Seunghyun Park",
-      "releaseDate": "2024",
-      "url": "https://link.springer.com/book/9783031801358#overview",
-      "summary": "ICPR 2024"
-    },
-    {
-      "name": "Fashion Image Retrieval with Occlusions",
-      "publisher": "Jimin Sohn*, Haeji Jung*, Zhiwen Yan*, Vibha Masti*, Xiang Li, Bhiksha Raj",
-      "releaseDate": "2024",
-      "url": "https://link.springer.com/book/9783031801358#overview",
-      "summary": "ICPR 2024"
+      "name": "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
+      "publisher": "Geewook Kim, Hodong Lee, Daehee Kim, Haeji Jung, Sanghee Park, Yoonsik Kim, Sangdoo Yun, Taeho Kil, Bado Lee, Seunghyun Park",
+      "releaseDate": "2023",
+      "url": "https://aclanthology.org/2023.emnlp-main.735",
+      "summary": "EMNLP 2023"
     },
     {
       "name": "FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing",
@@ -185,11 +157,39 @@
       "summary": "ICML 2024 Workshop on Foundation Models in the Wild"
     },
     {
-      "name": "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
-      "publisher": "Geewook Kim, Hodong Lee, Daehee Kim, Haeji Jung, Sanghee Park, Yoonsik Kim, Sangdoo Yun, Taeho Kil, Bado Lee, Seunghyun Park",
-      "releaseDate": "2023",
-      "url": "https://aclanthology.org/2023.emnlp-main.735",
-      "summary": "EMNLP 2023"
+      "name": "Fashion Image Retrieval with Occlusions",
+      "publisher": "Jimin Sohn*, Haeji Jung*, Zhiwen Yan*, Vibha Masti*, Xiang Li, Bhiksha Raj",
+      "releaseDate": "2024",
+      "url": "https://link.springer.com/book/9783031801358#overview",
+      "summary": "ICPR 2024"
+    },
+    {
+      "name": "Text-driven Prototype Learning for Few-Shot Class-Incremental Learning",
+      "publisher": "Seongbeom Park*, Haeji Jung*, Daewon Chae, Hyunju Yun, Sungyoon Kim, Suhong Moon, Jinkyu Kim, Seunghyun Park",
+      "releaseDate": "2024",
+      "url": "https://link.springer.com/book/9783031801358#overview",
+      "summary": "ICPR 2024"
+    },
+    {
+      "name": "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions",
+      "publisher": "Seokha Moon, Hyun Woo, Hongbeen Park, <b>Haeji Jung</b>, Reza Mahjourian, Hyung-gun Chi, Hyerin Kim, Sangpil Kim, Jinkyu Kim",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1007/978-3-031-72658-3_21",
+      "summary": "ECCV 2024"
+    },
+    {
+      "name": "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
+      "publisher": "Haeji Jung, Changdae Oh, Jooeon Kang, Jimin Sohn, Kyungwoo Song, Jinkyu Kim, David Mortensen",
+      "releaseDate": "2024",
+      "url": "https://aclanthology.org/2024.mrl-1.16",
+      "summary": "Multilingual Representation Learning Workshop (co-located with EMNLP 2024)"
+    },
+    {
+      "name": "Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages",
+      "publisher": "Jimin Sohn*, Haeji Jung*, Alex Cheng, Jooeon Kang, Yilin Du, David Mortensen",
+      "releaseDate": "2024",
+      "url": "https://aclanthology.org/2024.emnlp-main.753",
+      "summary": "EMNLP 2024"
     }
   ],
   "skills": [
