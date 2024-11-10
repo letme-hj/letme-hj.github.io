@@ -1,5 +1,5 @@
 {
-  "general": {
+  "basics": {
     "name": "Haeji Jung",
     "image": "",
     "email": "gpwl0709@korea.ac.kr (haejij@andrew.cmu.edu)",
@@ -42,10 +42,9 @@
       "endDate": "2024-02",
       "summary": "Completed a non-degree, non-transcript executive eduation program",
       "highlights": [
-        "Relevant publications:",
-        "Zero-Shot Cross-Lingual {NER} Using Phonemic Representations for Low-Resource Languages (EMNLP 2024)",
-        "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer (MRL Workshop @EMNLP 2024)",
-        "Fashion Image Retrieval with Occlusion (ICPR 2024)"
+        "Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages (Accepted at EMNLP 2024)",
+        "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer (Accepted at MRL Workshop @EMNLP 2024)",
+        "Fashion Image Retrieval with Occlusion (Accepted at ICPR 2024)"
     ]
     },
     {
@@ -56,10 +55,9 @@
       "endDate": "2024-08",
       "summary": "Completed master's degree",
       "highlights": [
-        "Relevant publications:",
-        "Text-driven Prototype Learning for Few-Shot Class-Incremental Learning (ICPR 2024)",
-        "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions (ECCV 2024)",
-        "FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing (FM-Wild Workshop @ICML 2024)"
+        "Text-driven Prototype Learning for Few-Shot Class-Incremental Learning (Accepted at ICPR 2024)",
+        "VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions (Accepted at ECCV 2024)",
+        "FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing (Accepted at FM-Wild Workshop @ICML 2024)"
     ]
     },
     {
@@ -70,8 +68,7 @@
       "endDate": "2023-02",
       "summary": "Research on visual document understanding",
       "highlights": [
-        "Relevant publication:", 
-        "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models (EMNLP 2023)"]
+        "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models (Accepted at EMNLP 2023)"]
     }
   ],
   "education": [
@@ -144,28 +141,28 @@
   "publications": [
     {
       "name": "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
-      "publisher": "Geewook Kim, Hodong Lee, Daehee Kim, Haeji Jung, Sanghee Park, Yoonsik Kim, Sangdoo Yun, Taeho Kil, Bado Lee, Seunghyun Park",
+      "publisher": "Geewook Kim, Hodong Lee, Daehee Kim, <b>Haeji Jung</b>, Sanghee Park, Yoonsik Kim, Sangdoo Yun, Taeho Kil, Bado Lee, Seunghyun Park",
       "releaseDate": "2023",
       "url": "https://aclanthology.org/2023.emnlp-main.735",
       "summary": "EMNLP 2023"
     },
     {
       "name": "FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing",
-      "publisher": "Dabin Seo, Haeji Jung, Jinkyu Kim",
+      "publisher": "Dabin Seo, <b>Haeji Jung</b>, Jinkyu Kim",
       "releaseDate": "2024",
       "url": "https://link.springer.com/book/9783031801358#overview",
       "summary": "ICML 2024 Workshop on Foundation Models in the Wild"
     },
     {
       "name": "Fashion Image Retrieval with Occlusions",
-      "publisher": "Jimin Sohn*, Haeji Jung*, Zhiwen Yan*, Vibha Masti*, Xiang Li, Bhiksha Raj",
+      "publisher": "Jimin Sohn<sup>*</sup>, <b>Haeji Jung<sup>*</sup></b>, Zhiwen Yan<sup>*</sup>, Vibha Masti<sup>*</sup>, Xiang Li, Bhiksha Raj",
       "releaseDate": "2024",
       "url": "https://link.springer.com/book/9783031801358#overview",
       "summary": "ICPR 2024"
     },
     {
       "name": "Text-driven Prototype Learning for Few-Shot Class-Incremental Learning",
-      "publisher": "Seongbeom Park*, Haeji Jung*, Daewon Chae, Hyunju Yun, Sungyoon Kim, Suhong Moon, Jinkyu Kim, Seunghyun Park",
+      "publisher": "Seongbeom Park<sup>*</sup>, <b>Haeji Jung<sup>*</sup></b>, Daewon Chae, Hyunju Yun, Sungyoon Kim, Suhong Moon, Jinkyu Kim, Seunghyun Park",
       "releaseDate": "2024",
       "url": "https://link.springer.com/book/9783031801358#overview",
       "summary": "ICPR 2024"
@@ -179,14 +176,14 @@
     },
     {
       "name": "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
-      "publisher": "Haeji Jung, Changdae Oh, Jooeon Kang, Jimin Sohn, Kyungwoo Song, Jinkyu Kim, David Mortensen",
+      "publisher": "<b>Haeji Jung</b>, Changdae Oh, Jooeon Kang, Jimin Sohn, Kyungwoo Song, Jinkyu Kim, David Mortensen",
       "releaseDate": "2024",
       "url": "https://aclanthology.org/2024.mrl-1.16",
       "summary": "Multilingual Representation Learning Workshop (co-located with EMNLP 2024)"
     },
     {
       "name": "Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages",
-      "publisher": "Jimin Sohn*, Haeji Jung*, Alex Cheng, Jooeon Kang, Yilin Du, David Mortensen",
+      "publisher": "Jimin Sohn<sup>*</sup>, <b>Haeji Jung<sup>*</sup></b>, Alex Cheng, Jooeon Kang, Yilin Du, David Mortensen",
       "releaseDate": "2024",
       "url": "https://aclanthology.org/2024.emnlp-main.753",
       "summary": "EMNLP 2024"
