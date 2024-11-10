@@ -1,14 +1,12 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @inproceedings{sohn-etal-2024-zero,
     title = "Zero-Shot Cross-Lingual {NER} Using Phonemic Representations for Low-Resource Languages",
     abbr = "EMNLP main",
     selected = {true},
-    author = "Sohn, Jimin  and
-      Jung, Haeji  and
+    author = "Sohn*, Jimin  and
+      Jung*, Haeji  and
       Cheng, Alex  and
       Kang, Jooeon  and
       Du, Yilin  and
@@ -29,7 +27,7 @@
 
 @inproceedings{jung-etal-2024-mitigating,
     title = "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
-    abbr = "MRL @EMNLP",
+    abbr = "EMNLP Workshop",
     selected = {true},
     author = "Jung, Haeji  and
       Oh, Changdae  and
@@ -48,4 +46,99 @@
     url = "https://aclanthology.org/2024.mrl-1.16",
     pages = "200--211",
     abstract = "Approaches to improving multilingual language understanding often struggle with significant performance gaps between high-resource and low-resource languages. While there are efforts to align the languages in a single latent space to mitigate such gaps, how different input-level representations influence such gaps has not been investigated, particularly with phonemic inputs. We hypothesize that the performance gaps are affected by representation discrepancies between those languages, and revisit the use of phonemic representations as a means to mitigate these discrepancies.To demonstrate the effectiveness of phonemic representations, we present experiments on three representative cross-lingual tasks on 12 languages in total. The results show that phonemic representations exhibit higher similarities between languages compared to orthographic representations, and it consistently outperforms grapheme-based baseline model on languages that are relatively low-resourced.We present quantitative evidence from three cross-lingual tasks that demonstrate the effectiveness of phonemic representations, and it is further justified by a theoretical analysis of the cross-lingual performance gap.",
+}
+
+@inproceedings{kim-etal-2023-visually,
+    title = "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
+    abbr = "EMNLP main",
+    selected = {true},
+    author = "Kim, Geewook  and
+      Lee, Hodong  and
+      Kim, Daehee  and
+      Jung, Haeji  and
+      Park, Sanghee  and
+      Kim, Yoonsik  and
+      Yun, Sangdoo  and
+      Kil, Taeho  and
+      Lee, Bado  and
+      Park, Seunghyun",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.735",
+    doi = "10.18653/v1/2023.emnlp-main.735",
+    pages = "11989--12010",
+    abstract = "Recent advances in Large Language Models (LLMs) have stimulated a surge of research aimed at extending their applications to the visual domain. While these models exhibit promise in generating abstract image captions and facilitating natural conversations, their performance on text-rich images still requires improvement. In this paper, we introduce Contrastive Reading Model (Cream), a novel neural architecture designed to enhance the language-image understanding capability of LLMs by capturing intricate details that are often overlooked in existing methods. Cream combines vision and auxiliary encoders, fortified by a contrastive feature alignment technique, to achieve a more effective comprehension of language information in visually situated contexts within the images. Our approach bridges the gap between vision and language understanding, paving the way for the development of more sophisticated Document Intelligence Assistants. Through rigorous evaluations across diverse visually-situated language understanding tasks that demand reasoning capabilities, we demonstrate the compelling performance of Cream, positioning it as a prominent model in the field of visual document understanding. We provide our codebase and newly-generated datasets at https://github.com/naver-ai/cream.",
+}
+
+@inproceedings{visiontrap,
+    author = {Moon, Seokha and Woo, Hyun and Park, Hongbeen and Jung, Haeji and Mahjourian, Reza and Chi, Hyung-gun and Lim, Hyerin and Kim, Sangpil and Kim, Jinkyu},
+    abbr = "ECCV",
+    selected = {true},
+    title = {VisionTrap: Vision-Augmented Trajectory Prediction Guided by&nbsp;Textual Descriptions},
+    year = {2024},
+    isbn = {978-3-031-72657-6},
+    publisher = {Springer-Verlag},
+    address = {Berlin, Heidelberg},
+    url = {https://doi.org/10.1007/978-3-031-72658-3_21},
+    doi = {10.1007/978-3-031-72658-3_21},
+    abstract = {Predicting future trajectories for other road agents is an essential task for autonomous vehicles. Established trajectory prediction methods primarily use agent tracks generated by a detection and tracking system and HD map as inputs. In this work, we propose a novel method that also incorporates visual input from surround-view cameras, allowing the model to utilize visual cues such as human gazes and gestures, road conditions, vehicle turn signals, etc., which are typically hidden from the model in prior methods. Furthermore, we use textual descriptions generated by a Vision-Language Model (VLM) and refined by a Large Language Model (LLM) as supervision during training to guide the model on what to learn from the input data. Despite using these extra inputs, our method achieves a latency of 53 ms, making it feasible for real-time processing, which is significantly faster than that of previous single-agent prediction methods with similar performance. Our experiments show that both the visual inputs and the textual descriptions contribute to improvements in trajectory prediction performance, and our qualitative analysis highlights how the model is able to exploit these additional inputs. Lastly, in this work we create and release the nuScenes-Text dataset, which augments the established nuScenes dataset with rich textual annotations for every scene, demonstrating the positive impact of utilizing VLM on trajectory prediction. Our project page is at .},
+    booktitle = {Computer Vision – ECCV 2024: 18th European Conference, Milan, Italy, September 29–October 4, 2024, Proceedings, Part VI},
+    pages = {361–379},
+    numpages = {19},
+    keywords = {Motion Forecasting, Trajectory Prediction, Autonomous Driving, nuScenes-Text Dataset},
+    location = {Milan, Italy}
+}
+
+@inproceedings{fscil,
+    author = {Park*, Seongbeom and Jung*, Haeji and Chae, Daewon and Yun, Hyunju and Kim, Seongyoon and Moon, Suhong and Kim, Jinkyu and Park, Seunghyun},
+    abbr = "ICPR",
+    selected = {true},
+    title = {Text-driven Prototype Learning for Few-Shot Class-Incremental Learning},
+    year = {2024},
+    isbn = {978-3-031-80136-5},
+    publisher = {Springer Cham},
+    address = {},
+    url = {https://link.springer.com/book/9783031801358#overview},
+    doi = {},
+    abstract = {Few-shot class-incremental learning (FSCIL) aims to learn generalizable representations with large amounts of initial data and incrementally adapt to new classes with limited data (i.e., few-shot). Recently, prototype-based approaches have shown notably improved performance. However, there still remain challenges -- their performances often degrade when newly added classes have high similarity with previously seen classes, causing prototypes to be indistinguishable. In this work, we advocate for leveraging textual semantics to learn class-representative and class-distinguishable prototypes, retaining semantic relations between classes. We utilize angular margin loss to leverage textual semantics effectively, encouraging the model to have intra-class compactness and inter-class discrepancies in the embedding space. Our experiments with three public benchmarks (CUB200, CIFAR100, and miniImageNet) show that our proposed method generally matches or outperforms the current state-of-the-art approaches. To further demonstrate the effectiveness of using texts in the FSCIL task, we newly collect visually descriptive and class-discriminative descriptions built upon two widely-used FSCIL benchmarks: CIFAR100-Text and miniImageNet-Text.},
+    booktitle = {Pattern Recognition – 27th International Conference, ICPR 2024, Kolkata, India, December 1–5, 2024, Proceedings, Part XXXIII},
+    pages = {},
+    numpages = {16},
+    keywords = {Few-Shot Class-Incremental Learning, Text-Driven Prototype},
+    location = {Kolkata, India}
+}
+
+@inproceedings{fashion-image,
+    author = {Sohn*, Jimin and Jung*, Haeji and Yan*, Zhiwen and Masti*, Vibha and Li, Xiang and Raj, Bhiksha},
+    abbr = "ICPR",
+    selected = {false},
+    title = {Fashion Image Retrieval with Occlusion},
+    year = {2024},
+    isbn = {978-3-031-80136-5},
+    publisher = {Springer Cham},
+    address = {},
+    url = {https://link.springer.com/book/9783031801358#overview},
+    doi = {},
+    abstract = {With the growth of online fashion platforms and independent content creators, there is a growing interest in visually searching for similar clothing items as shown online. In real-world settings, clothes are often covered by other objects, making retrieval challenging. To make fashion image retrieval more robust, we explore fashion image retrieval with occlusion. We conducted various experiments on the In-shop Clothes Retrieval dataset, a subset of the DeepFashion benchmark. We constructed variations of the dataset with different occlusion types, including various sizes and locations of MSCOCO objects and object masks to simulate realistic occlusion circumstances. We evaluate the zero-shot and fine-tuned performance of the state-of-the-art models on these datasets and observe performance drop. We observe that fine-tuning models on one occluded dataset makes the model more robust to other occlusion types and reduces performance drop. The dataset used in this paper can be found in https://bit.ly/4749Mbo.},
+    booktitle = {Pattern Recognition – 27th International Conference, ICPR 2024, Kolkata, India, December 1–5, 2024, Proceedings, Part XXXIII},
+    pages = {},
+    numpages = {16},
+    keywords = {Image Retrieval, Occlusion, Robust Model},
+    location = {Kolkata, India}
+}
+
+@inproceedings{fomu-ssl,
+    abbr = "ICML Workshop",
+    selected = {false},
+    title={FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing},
+    author={Dabin Seo and Haeji Jung and Jinkyu Kim},
+    booktitle={ICML 2024 Workshop on Foundation Models in the Wild},
+    year={2024},
+    url={https://openreview.net/forum?id=sLTcHBE2vV}
 }

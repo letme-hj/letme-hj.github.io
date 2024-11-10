@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages"** has been accepted to **EMNLP main**!
+Our paper **"Zero-Shot Cross-Lingual NER Using Phonemic Representations for Low-Resource Languages"** has been accepted to EMNLP main!
