@@ -48,39 +48,11 @@
     abstract = "Approaches to improving multilingual language understanding often struggle with significant performance gaps between high-resource and low-resource languages. While there are efforts to align the languages in a single latent space to mitigate such gaps, how different input-level representations influence such gaps has not been investigated, particularly with phonemic inputs. We hypothesize that the performance gaps are affected by representation discrepancies between those languages, and revisit the use of phonemic representations as a means to mitigate these discrepancies.To demonstrate the effectiveness of phonemic representations, we present experiments on three representative cross-lingual tasks on 12 languages in total. The results show that phonemic representations exhibit higher similarities between languages compared to orthographic representations, and it consistently outperforms grapheme-based baseline model on languages that are relatively low-resourced.We present quantitative evidence from three cross-lingual tasks that demonstrate the effectiveness of phonemic representations, and it is further justified by a theoretical analysis of the cross-lingual performance gap.",
 }
 
-@inproceedings{kim-etal-2023-visually,
-    title = "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
-    abbr = "EMNLP main",
-    selected = {true},
-    author = "Kim, Geewook  and
-      Lee, Hodong  and
-      Kim, Daehee  and
-      Jung, Haeji  and
-      Park, Sanghee  and
-      Kim, Yoonsik  and
-      Yun, Sangdoo  and
-      Kil, Taeho  and
-      Lee, Bado  and
-      Park, Seunghyun",
-    editor = "Bouamor, Houda  and
-      Pino, Juan  and
-      Bali, Kalika",
-    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
-    month = dec,
-    year = "2023",
-    address = "Singapore",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.emnlp-main.735",
-    doi = "10.18653/v1/2023.emnlp-main.735",
-    pages = "11989--12010",
-    abstract = "Recent advances in Large Language Models (LLMs) have stimulated a surge of research aimed at extending their applications to the visual domain. While these models exhibit promise in generating abstract image captions and facilitating natural conversations, their performance on text-rich images still requires improvement. In this paper, we introduce Contrastive Reading Model (Cream), a novel neural architecture designed to enhance the language-image understanding capability of LLMs by capturing intricate details that are often overlooked in existing methods. Cream combines vision and auxiliary encoders, fortified by a contrastive feature alignment technique, to achieve a more effective comprehension of language information in visually situated contexts within the images. Our approach bridges the gap between vision and language understanding, paving the way for the development of more sophisticated Document Intelligence Assistants. Through rigorous evaluations across diverse visually-situated language understanding tasks that demand reasoning capabilities, we demonstrate the compelling performance of Cream, positioning it as a prominent model in the field of visual document understanding. We provide our codebase and newly-generated datasets at https://github.com/naver-ai/cream.",
-}
-
 @inproceedings{visiontrap,
     author = {Moon, Seokha and Woo, Hyun and Park, Hongbeen and Jung, Haeji and Mahjourian, Reza and Chi, Hyung-gun and Lim, Hyerin and Kim, Sangpil and Kim, Jinkyu},
     abbr = "ECCV",
     selected = {true},
-    title = {VisionTrap: Vision-Augmented Trajectory Prediction Guided by&nbsp;Textual Descriptions},
+    title = {VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions},
     year = {2024},
     isbn = {978-3-031-72657-6},
     publisher = {Springer-Verlag},
@@ -95,8 +67,19 @@
     location = {Milan, Italy}
 }
 
+@inproceedings{fomu-ssl,
+    abbr = "ICML Workshop",
+    selected = {false},
+    title={FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing},
+    author={Dabin Seo and Haeji Jung and Jinkyu Kim},
+    booktitle={ICML 2024 Workshop on Foundation Models in the Wild},
+    year={2024},
+    url={https://openreview.net/forum?id=sLTcHBE2vV},
+    abstract = {The application of remote sensing in computer vision struggles with domain shifts among datasets, where models trained on one satellite dataset may not generalize well to others due to diverse geographic and environmental conditions. These differences hinder the self-supervised representation learning, hence this paper introduces an innovative strategy that employs the ImageNet-pretrained foundation model as a guide to enhance the semantic feature extraction process. We also incorporate radar sensor to complement optical sensor inputs, without additional training. Our approach significantly improves performances in segmentation, detection, and classification tasks, offering a robust and efficient method for self-supervised learning in remote sensing.}
+}
+
 @inproceedings{fscil,
-    author = {Park*, Seongbeom and Jung*, Haeji and Chae, Daewon and Yun, Hyunju and Kim, Seongyoon and Moon, Suhong and Kim, Jinkyu and Park, Seunghyun},
+    author = {Park*, Seongbeom and Jung*, Haeji and Chae, Daewon and Yun, Hyunju and Kim, Sungyoon and Moon, Suhong and Kim, Jinkyu and Park, Seunghyun},
     abbr = "ICPR",
     selected = {true},
     title = {Text-driven Prototype Learning for Few-Shot Class-Incremental Learning},
@@ -133,13 +116,31 @@
     location = {Kolkata, India}
 }
 
-@inproceedings{fomu-ssl,
-    abbr = "ICML Workshop",
-    selected = {false},
-    title={FoMu-SSL: Foundation Model-Guided Multi-Sensor Self-Supervised Learning for Remote Sensing},
-    author={Dabin Seo and Haeji Jung and Jinkyu Kim},
-    booktitle={ICML 2024 Workshop on Foundation Models in the Wild},
-    year={2024},
-    url={https://openreview.net/forum?id=sLTcHBE2vV},
-    abstract = {The application of remote sensing in computer vision struggles with domain shifts among datasets, where models trained on one satellite dataset may not generalize well to others due to diverse geographic and environmental conditions. These differences hinder the self-supervised representation learning, hence this paper introduces an innovative strategy that employs the ImageNet-pretrained foundation model as a guide to enhance the semantic feature extraction process. We also incorporate radar sensor to complement optical sensor inputs, without additional training. Our approach significantly improves performances in segmentation, detection, and classification tasks, offering a robust and efficient method for self-supervised learning in remote sensing.}
+
+@inproceedings{kim-etal-2023-visually,
+    title = "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
+    abbr = "EMNLP main",
+    selected = {true},
+    author = "Kim, Geewook  and
+      Lee, Hodong  and
+      Kim, Daehee  and
+      Jung, Haeji  and
+      Park, Sanghee  and
+      Kim, Yoonsik  and
+      Yun, Sangdoo  and
+      Kil, Taeho  and
+      Lee, Bado  and
+      Park, Seunghyun",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.735",
+    doi = "10.18653/v1/2023.emnlp-main.735",
+    pages = "11989--12010",
+    abstract = "Recent advances in Large Language Models (LLMs) have stimulated a surge of research aimed at extending their applications to the visual domain. While these models exhibit promise in generating abstract image captions and facilitating natural conversations, their performance on text-rich images still requires improvement. In this paper, we introduce Contrastive Reading Model (Cream), a novel neural architecture designed to enhance the language-image understanding capability of LLMs by capturing intricate details that are often overlooked in existing methods. Cream combines vision and auxiliary encoders, fortified by a contrastive feature alignment technique, to achieve a more effective comprehension of language information in visually situated contexts within the images. Our approach bridges the gap between vision and language understanding, paving the way for the development of more sophisticated Document Intelligence Assistants. Through rigorous evaluations across diverse visually-situated language understanding tasks that demand reasoning capabilities, we demonstrate the compelling performance of Cream, positioning it as a prominent model in the field of visual document understanding. We provide our codebase and newly-generated datasets at https://github.com/naver-ai/cream.",
 }
