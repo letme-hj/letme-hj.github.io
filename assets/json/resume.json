@@ -22,7 +22,7 @@
       }
     ]
   },
-  "research": [
+  "work": [
     {
       "name": "ChangeLing Lab, Carnegie Mellon University",
       "position": "Visiting Scholar",
@@ -204,10 +204,7 @@
   "interests": [
     {
       "name": "Multilingual Language Modeling",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "TBD"
-      ]
+      "icon": "fa-solid fa-tag"
     }
   ]
 
