@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was selected as a recipient of th **4YF Fellowship** from UBC!
+I was selected as a recipient of the **4YF Fellowship** from UBC!
