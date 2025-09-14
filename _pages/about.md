@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://info.korea.edu/en_info/index.do'>Korea University-Carnegie Mellon University</a>. gpwl0709@korea.ac.kr.
+subtitle: <a href='https://www.ubc.ca/'>University of British Columbia</a>. {firstname}j@cs.ubc.ca .
 
 profile:
   align: right
