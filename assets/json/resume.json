@@ -73,6 +73,16 @@
   ],
   "education": [
     {
+      "institution": "University of British Columbia",
+      "location": "Vancouver, Canada",
+      "url": "https://www.ubc.ca/",
+      "area": "Advisor: Hila Gonen",
+      "studyType": "PhD student",
+      "startDate": "2025-09",
+      "endDate": "Present",
+      "score": "10"
+    },
+    {
       "institution": "Korea University",
       "location": "Seoul, South Korea",
       "url": "https://www.korea.edu/",
