@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"Happiness is Sharing a Vocabulary: A Study of Transliteration Methods"** has been published at EACL main!
+Our paper **"Happiness is Sharing a Vocabulary: A Study of Transliteration Methods"** has been accepted to EACL main!
