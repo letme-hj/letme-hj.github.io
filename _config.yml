@@ -96,7 +96,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: cyhTZ0MAAAAJ # your Google Scholar ID
+scholar_userid: wPT3kwkAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -196,7 +196,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: false # default: true
+    output: true # default: true
     permalink: /:collection/:title/
 
 announcements:
@@ -365,11 +365,13 @@ filtered_bibtex_keywords:
     pdf,
     poster,
     preview,
+    project,
     selected,
     slides,
     supp,
     video,
     website,
+    workshop,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

@@ -1,10 +1,94 @@
 ---
 ---
 
+@article{jung-etal-2026-phantombench,
+    abbr = "Preprint",
+    selected = {true},
+    project = {/projects/phantombench/},
+    title = "PhantomBench: Benchmarking the Non-existential Threat of Language Models",
+    author = "Jung, Haeji  and
+      Gonen, Hila",
+    journal = "arXiv preprint arXiv:2606.11105",
+    month = jun,
+    year = "2026",
+    arxiv = "2606.11105",
+    workshop = "https://openreview.net/forum?id=k6GjJYENrT",
+    url = "https://arxiv.org/abs/2606.11105",
+    note = "Shorter version presented at [First Workshop in AI Measurement Science (AIMS @ COLM 2026)](https://openreview.net/forum?id=k6GjJYENrT).",
+    abstract = "Hallucinations, where language models (LMs) generate factually ungrounded responses, pose serious risks, as users tend to blindly rely on them. This is particularly concerning in high-stakes domains, where consequences of such model behavior can lead to significant harms. Despite notable progress in understanding hallucinations, it remains unclear how reliably these models can recognize the limits of their knowledge. We introduce PHANTOMBENCH, the first large-scale benchmark of its kind, comprising more than 60K non-existent terms and entities derived from real concepts across diverse domains. Using our benchmark, we evaluate a total of 21 models of various types and sizes. We show staggering hallucination rates across the board (with average rates as high as 86.7{\%} in some cases), and note that even frontier models surprisingly fail to abstain on non-existent concepts, especially when the input presumes their existence. We then show that PHANTOMBENCH can serve as a proxy for studying model behavior on rare concepts for which models are more prone to hallucinate. We also provide a pipeline to construct PHANTOMBENCH, enabling scalable generation of non-existent concepts tailored to the specific needs of researchers and practitioners.",
+}
+
+@inproceedings{kim-etal-2026-harnessing,
+    abbr = "CoNLL",
+    selected = {false},
+    title = "Harnessing Linguistic Dissimilarity for Language Generalization on Unseen Low-Resource Varieties",
+    author = "Kim, Jinju  and
+      Jung, Haeji  and
+      Roh, Youjeong  and
+      Ko, Jong Hwan  and
+      Mortensen, David R.",
+    editor = "Bonial, Claire  and
+      Berzak, Yevgeni",
+    booktitle = "Proceedings of the 30th Conference on Computational Natural Language Learning",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.conll-main.17/",
+    doi = "10.18653/v1/2026.conll-main.17",
+    arxiv = "2605.04500",
+    pages = "284--300",
+    ISBN = "979-8-89176-410-1",
+    abstract = "Low-resource language varieties used by specific groups remain neglected in the development of Multilingual Language Models. A great deal of cross-lingual research focuses on inter-lingual language transfer which strives to align allied varieties and minimize differences between them. However, for low-resource varieties, linguistic dissimilarity is also an important cue allowing generalization to unseen varieties. Unlike prior approaches, we propose a two-stage Language Generalization framework that focuses on capturing variety-specific cues while also exploiting rich overlap offered by high-resource source variety. First, we propose TOPPing, a source-selection method specifically designed for low-resource varieties. Second, we suggest a lightweight VA{\c{C}}A{\'I}-Bowl architecture that learns variety-specific attributes with one branch while a parallel branch captures variety-invariant attributes using adversarial training. We evaluate our framework on structural prediction tasks, which are among the few tasks available, as proxy for performance on other downstream tasks. Using VA{\c{C}}A{\'I}-Bowl with TOPPing yields an average 54.62{\%} improvement in the dependency parsing task, which serves as a proxy for performance on other downstream tasks across 10 low-resource varieties.",
+}
+
+@inproceedings{jung-etal-2026-happiness,
+    abbr = "EACL main",
+    selected = {true},
+    project = {/projects/happiness-transliteration/},
+    title = "Happiness is Sharing a Vocabulary: A Study of Transliteration Methods",
+    author = "Jung, Haeji  and
+      Kim, Jinju  and
+      Kim, Kyungjin  and
+      Roh, Youjeong  and
+      Mortensen, David R.",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.eacl-long.365/",
+    doi = "10.18653/v1/2026.eacl-long.365",
+    pages = "7797--7816",
+    ISBN = "979-8-89176-380-7",
+    abstract = "Transliteration has emerged as a promising means to bridge the gap between various languages in multilingual NLP, showing promising results especially for languages using non-Latin scripts. We investigate the degree to which shared script, overlapping token vocabularies, and shared phonology contribute to performance of multilingual models. To this end, we conduct controlled experiments using three kinds of transliteration (romanization, phonemic transcription, and substitution ciphers) as well as orthography. We evaluate each model on three downstream tasks{---}named entity recognition (NER), part-of-speech tagging (POS) and natural language inference (NLI){---}and find that romanization significantly outperforms other input types in 7 out of 8 evaluation settings, largely consistent with our hypothesis that it is the most effective approach. We further analyze how each factor contributed to the success, and suggest that having longer (subword) tokens shared with pre-trained languages leads to better utilization of the model.",
+}
+
+@inproceedings{kim-etal-2025-domain,
+    abbr = "IEEE EMBC",
+    selected = {false},
+    title = "Domain-Specific Multilingual Strategies for Medical {NLP}: A Cross-Lingual Analysis of Orthographic and Phonemic Representations",
+    author = "Kim, Kyungjin  and
+      Kim, Jinju  and
+      Jung, Haeji  and
+      Mortensen, David R.  and
+      Seo, Jongmo",
+    booktitle = "2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+    month = jul,
+    year = "2025",
+    pages = "1--6",
+    doi = "10.1109/EMBC58623.2025.11254331",
+    url = "https://doi.org/10.1109/EMBC58623.2025.11254331",
+}
+
 @inproceedings{sohn-etal-2024-zero,
     title = "Zero-Shot Cross-Lingual {NER} Using Phonemic Representations for Low-Resource Languages",
     abbr = "EMNLP main",
     selected = {true},
+    project = {/projects/zero-shot-ner/},
     author = "Sohn*, Jimin  and
       Jung*, Haeji  and
       Cheng, Alex  and
@@ -24,11 +108,11 @@
     abstract = "Existing zero-shot cross-lingual NER approaches require substantial prior knowledge of the target language, which is impractical for low-resource languages.In this paper, we propose a novel approach to NER using phonemic representation based on the International Phonetic Alphabet (IPA) to bridge the gap between representations of different languages.Our experiments show that our method significantly outperforms baseline models in extremely low-resource languages, with the highest average F1 score (46.38{\%}) and lowest standard deviation (12.67), particularly demonstrating its robustness with non-Latin scripts. Ourcodes are available at https://github.com/Gabriel819/zeroshot{\_}ner.git",
 }
 
-
 @inproceedings{jung-etal-2024-mitigating,
     title = "Mitigating the Linguistic Gap with Phonemic Representations for Robust Cross-lingual Transfer",
     abbr = "EMNLP Workshop",
     selected = {true},
+    project = {/projects/mitigating-linguistic-gap/},
     author = "Jung, Haeji  and
       Oh, Changdae  and
       Kang, Jooeon  and
@@ -51,7 +135,8 @@
 @inproceedings{visiontrap,
     author = {Moon, Seokha and Woo, Hyun and Park, Hongbeen and Jung, Haeji and Mahjourian, Reza and Chi, Hyung-gun and Lim, Hyerin and Kim, Sangpil and Kim, Jinkyu},
     abbr = "ECCV",
-    selected = {true},
+    selected = {false},
+    project = {https://moonseokha.github.io/VisionTrap/},
     title = {VisionTrap: Vision-Augmented Trajectory Prediction Guided by Textual Descriptions},
     year = {2024},
     isbn = {978-3-031-72657-6},
@@ -82,6 +167,7 @@
     author = {Park*, Seongbeom and Jung*, Haeji and Chae, Daewon and Yun, Hyunju and Kim, Sungyoon and Moon, Suhong and Kim, Jinkyu and Park, Seunghyun},
     abbr = "ICPR",
     selected = {true},
+    project = {/projects/text-driven-fscil/},
     title = {Text-driven Prototype Learning for Few-Shot Class-Incremental Learning},
     year = {2024},
     isbn = {978-3-031-80136-5},
@@ -116,11 +202,10 @@
     location = {Kolkata, India}
 }
 
-
 @inproceedings{kim-etal-2023-visually,
     title = "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models",
     abbr = "EMNLP main",
-    selected = {true},
+    selected = {false},
     author = "Kim, Geewook  and
       Lee, Hodong  and
       Kim, Daehee  and
@@ -143,27 +228,4 @@
     doi = "10.18653/v1/2023.emnlp-main.735",
     pages = "11989--12010",
     abstract = "Recent advances in Large Language Models (LLMs) have stimulated a surge of research aimed at extending their applications to the visual domain. While these models exhibit promise in generating abstract image captions and facilitating natural conversations, their performance on text-rich images still requires improvement. In this paper, we introduce Contrastive Reading Model (Cream), a novel neural architecture designed to enhance the language-image understanding capability of LLMs by capturing intricate details that are often overlooked in existing methods. Cream combines vision and auxiliary encoders, fortified by a contrastive feature alignment technique, to achieve a more effective comprehension of language information in visually situated contexts within the images. Our approach bridges the gap between vision and language understanding, paving the way for the development of more sophisticated Document Intelligence Assistants. Through rigorous evaluations across diverse visually-situated language understanding tasks that demand reasoning capabilities, we demonstrate the compelling performance of Cream, positioning it as a prominent model in the field of visual document understanding. We provide our codebase and newly-generated datasets at https://github.com/naver-ai/cream.",
-}
-
-@inproceedings{jung-etal-2026-happiness,
-    abbr = "EACL main",
-    title = "Happiness is Sharing a Vocabulary: A Study of Transliteration Methods",
-    author = "Jung, Haeji  and
-      Kim, Jinju  and
-      Kim, Kyungjin  and
-      Roh, Youjeong  and
-      Mortensen, David R.",
-    editor = "Demberg, Vera  and
-      Inui, Kentaro  and
-      Marquez, Llu{\'i}s",
-    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
-    month = mar,
-    year = "2026",
-    address = "Rabat, Morocco",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2026.eacl-long.365/",
-    doi = "10.18653/v1/2026.eacl-long.365",
-    pages = "7797--7816",
-    ISBN = "979-8-89176-380-7",
-    abstract = "Transliteration has emerged as a promising means to bridge the gap between various languages in multilingual NLP, showing promising results especially for languages using non-Latin scripts. We investigate the degree to which shared script, overlapping token vocabularies, and shared phonology contribute to performance of multilingual models. To this end, we conduct controlled experiments using three kinds of transliteration (romanization, phonemic transcription, and substitution ciphers) as well as orthography. We evaluate each model on three downstream tasks{---}named entity recognition (NER), part-of-speech tagging (POS) and natural language inference (NLI){---}and find that romanization significantly outperforms other input types in 7 out of 8 evaluation settings, largely consistent with our hypothesis that it is the most effective approach. We further analyze how each factor contributed to the success, and suggest that having longer (subword) tokens shared with pre-trained languages leads to better utilization of the model."
 }

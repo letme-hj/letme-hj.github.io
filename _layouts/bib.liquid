@@ -178,9 +178,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -197,6 +199,9 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
+      {% if entry.workshop %}
+        <a href="{{ entry.workshop }}" class="btn btn-sm z-depth-0" role="button">Workshop</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -228,7 +233,11 @@
         <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
       {% endif %}
       {% if entry.blog %}
-        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        {% if entry.blog contains '://' %}
+          <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        {% else %}
+          <a href="{{ entry.blog | relative_url }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        {% endif %}
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
@@ -247,8 +256,19 @@
           <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% endif %}
       {% endif %}
+      {% if entry.project %}
+        {% if entry.project contains '://' %}
+          <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+        {% else %}
+          <a href="{{ entry.project | relative_url }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+        {% endif %}
+      {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        {% if entry.website contains '://' %}
+          <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        {% else %}
+          <a href="{{ entry.website | relative_url }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        {% endif %}
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
