@@ -12,7 +12,7 @@ related_publications: false
 
 **Authors:** Haeji Jung, Changdae Oh, Jooeon Kang, Jimin Sohn, Kyungwoo Song, Jinkyu Kim, David Mortensen  
 **Venue:** Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL 2024), co-located with EMNLP 2024  
-**Links:** [ACL Anthology](https://aclanthology.org/2024.mrl-1.16) | [arXiv](https://arxiv.org/abs/2402.14279) | [alphaXiv](https://www.alphaxiv.org/overview/2402.14279) <!-- | [Code](https://github.com/...) | [Blog Post](/blog/...) -->
+**Links:** [ACL Anthology](https://aclanthology.org/2024.mrl-1.16) | [arXiv](https://arxiv.org/abs/2402.14279) | [alphaXiv](https://www.alphaxiv.org/overview/2402.14279)
 
 ---
 
@@ -29,11 +29,7 @@ related_publications: false
 
 Approaches to improving multilingual language understanding often struggle with significant performance gaps between high-resource and low-resource languages. While there are efforts to align the languages in a single latent space to mitigate such gaps, how different input-level representations influence such gaps has not been investigated, particularly with phonemic inputs. We hypothesize that the performance gaps are affected by representation discrepancies between those languages, and revisit the use of phonemic representations as a means to mitigate these discrepancies. To demonstrate the effectiveness of phonemic representations, we present experiments on three representative cross-lingual tasks on 12 languages in total. The results show that phonemic representations exhibit higher similarities between languages compared to orthographic representations, and it consistently outperforms grapheme-based baseline models on languages that are relatively low-resourced. We present quantitative evidence from three cross-lingual tasks that demonstrate the effectiveness of phonemic representations, and it is further justified by a theoretical analysis of the cross-lingual performance gap.
 
-<!--
-### Related Blog Post
-
-- Read the related post on my blog: [Post Title](/blog/...)
--->
+<!-- Add a "Related Blog Post" section here whenever you write a post in _posts/ -->
 
 ### Citation
 

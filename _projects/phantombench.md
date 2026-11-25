@@ -13,7 +13,7 @@ related_publications: false
 **Authors:** Haeji Jung, Hila Gonen  
 **Preprint:** arXiv:2606.11105 (June 2026)  
 **Workshop:** Shorter version presented at the First Workshop in AI Measurement Science: Toward Rigorous AI Evaluation (AIMS @ COLM 2026)  
-**Links:** [Full Paper (arXiv)](https://arxiv.org/abs/2606.11105) | [alphaXiv](https://www.alphaxiv.org/overview/2606.11105) | [Workshop Version (OpenReview)](https://openreview.net/forum?id=k6GjJYENrT) <!-- | [Code](https://github.com/...) | [Dataset](https://huggingface.co/datasets/...) | [Blog Post](/blog/...) -->
+**Links:** [Full Paper (arXiv)](https://arxiv.org/abs/2606.11105) | [alphaXiv](https://www.alphaxiv.org/overview/2606.11105) | [Workshop Version (OpenReview)](https://openreview.net/forum?id=k6GjJYENrT)
 
 ---
 
@@ -30,11 +30,7 @@ related_publications: false
 
 Hallucinations, where language models (LMs) generate factually ungrounded responses, pose serious risks, as users tend to blindly rely on them. This is particularly concerning in high-stakes domains, where consequences of such model behavior can lead to significant harms. Despite notable progress in understanding hallucinations, it remains unclear how reliably these models can recognize the limits of their knowledge. We introduce PHANTOMBENCH, the first large-scale benchmark of its kind, comprising more than 60K non-existent terms and entities derived from real concepts across diverse domains. Using our benchmark, we evaluate a total of 21 models of various types and sizes. We show staggering hallucination rates across the board (with average rates as high as 86.7% in some cases), and note that even frontier models surprisingly fail to abstain on non-existent concepts, especially when the input presumes their existence. We then show that PHANTOMBENCH can serve as a proxy for studying model behavior on rare concepts for which models are more prone to hallucinate. We also provide a pipeline to construct PHANTOMBENCH, enabling scalable generation of non-existent concepts tailored to the specific needs of researchers and practitioners.
 
-<!--
-### Related Blog Post
-
-- Read the related post on my blog: [Post Title](/blog/2026/your-post-slug/)
--->
+<!-- Add a "Related Blog Post" section here whenever you write a post in _posts/ -->
 
 ### Citation
 

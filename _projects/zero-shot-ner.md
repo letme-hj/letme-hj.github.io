@@ -12,7 +12,7 @@ related_publications: false
 
 **Authors:** Jimin Sohn\*, Haeji Jung\*, Alex Cheng, Jooeon Kang, Yilin Du, David Mortensen  
 **Venue:** Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)  
-**Links:** [ACL Anthology](https://aclanthology.org/2024.emnlp-main.753) | [arXiv](https://arxiv.org/abs/2406.16030) | [alphaXiv](https://www.alphaxiv.org/overview/2406.16030) | [Code](https://github.com/Gabriel819/zeroshot_ner) <!-- | [Blog Post](/blog/...) -->
+**Links:** [ACL Anthology](https://aclanthology.org/2024.emnlp-main.753) | [arXiv](https://arxiv.org/abs/2406.16030) | [alphaXiv](https://www.alphaxiv.org/overview/2406.16030) | [Code](https://github.com/Gabriel819/zeroshot_ner)
 
 ---
 
@@ -29,11 +29,7 @@ related_publications: false
 
 Existing zero-shot cross-lingual NER approaches require substantial prior knowledge of the target language, which is impractical for low-resource languages. In this paper, we propose a novel approach to NER using phonemic representation based on the International Phonetic Alphabet (IPA) to bridge the gap between representations of different languages. Our experiments show that our method significantly outperforms baseline models in extremely low-resource languages, with the highest average F1 score (46.38%) and lowest standard deviation (12.67), particularly demonstrating its robustness with non-Latin scripts.
 
-<!--
-### Related Blog Post
-
-- Read the related post on my blog: [Post Title](/blog/...)
--->
+<!-- Add a "Related Blog Post" section here whenever you write a post in _posts/ -->
 
 ### Citation
 

@@ -11,7 +11,7 @@ related_publications: false
 
 **Authors:** Seongbeom Park\*, Haeji Jung\*, Daewon Chae, Hyunju Yun, Sungyoon Kim, Suhong Moon, Jinkyu Kim, Seunghyun Park  
 **Venue:** 27th International Conference on Pattern Recognition (ICPR 2024)  
-**Links:** [Proceedings](https://link.springer.com/book/9783031801358#overview) <!-- | [Code](https://github.com/...) | [Blog Post](/blog/...) -->
+**Links:** [Proceedings](https://link.springer.com/book/9783031801358#overview)
 
 ---
 
@@ -32,11 +32,7 @@ Add Figure 1 to `assets/img/projects/text-driven-fscil_fig1.png` and uncomment b
 
 Few-shot class-incremental learning (FSCIL) aims to learn generalizable representations with large amounts of initial data and incrementally adapt to new classes with limited data (i.e., few-shot). Recently, prototype-based approaches have shown notably improved performance. However, there still remain challenges — their performances often degrade when newly added classes have high similarity with previously seen classes, causing prototypes to be indistinguishable. In this work, we advocate for leveraging textual semantics to learn class-representative and class-distinguishable prototypes, retaining semantic relations between classes. We utilize angular margin loss to leverage textual semantics effectively, encouraging the model to have intra-class compactness and inter-class discrepancies in the embedding space. Our experiments with three public benchmarks (CUB200, CIFAR100, and miniImageNet) show that our proposed method generally matches or outperforms the current state-of-the-art approaches. To further demonstrate the effectiveness of using texts in the FSCIL task, we newly collect visually descriptive and class-discriminative descriptions built upon two widely-used FSCIL benchmarks: CIFAR100-Text and miniImageNet-Text.
 
-<!--
-### Related Blog Post
-
-- Read the related post on my blog: [Post Title](/blog/...)
--->
+<!-- Add a "Related Blog Post" section here whenever you write a post in _posts/ -->
 
 ### Citation
 

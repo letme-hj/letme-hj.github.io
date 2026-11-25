@@ -12,7 +12,7 @@ related_publications: false
 
 **Authors:** Haeji Jung, Jinju Kim, Kyungjin Kim, Youjeong Roh, David R. Mortensen  
 **Venue:** Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026), Volume 1: Long Papers  
-**Links:** [ACL Anthology](https://aclanthology.org/2026.eacl-long.365/) | [arXiv](https://arxiv.org/abs/2510.10827) | [alphaXiv](https://www.alphaxiv.org/overview/2510.10827) | [DOI](https://doi.org/10.18653/v1/2026.eacl-long.365) <!-- | [Code](https://github.com/...) | [Blog Post](/blog/...) -->
+**Links:** [ACL Anthology](https://aclanthology.org/2026.eacl-long.365/) | [arXiv](https://arxiv.org/abs/2510.10827) | [alphaXiv](https://www.alphaxiv.org/overview/2510.10827) | [DOI](https://doi.org/10.18653/v1/2026.eacl-long.365)
 
 ---
 
@@ -29,11 +29,7 @@ related_publications: false
 
 Transliteration has emerged as a promising means to bridge the gap between various languages in multilingual NLP, showing promising results especially for languages using non-Latin scripts. We investigate the degree to which shared script, overlapping token vocabularies, and shared phonology contribute to performance of multilingual models. To this end, we conduct controlled experiments using three kinds of transliteration (romanization, phonemic transcription, and substitution ciphers) as well as orthography. We evaluate each model on three downstream tasks—named entity recognition (NER), part-of-speech tagging (POS) and natural language inference (NLI)—and find that romanization significantly outperforms other input types in 7 out of 8 evaluation settings, largely consistent with our hypothesis that it is the most effective approach. We further analyze how each factor contributed to the success, and suggest that having longer (subword) tokens shared with pre-trained languages leads to better utilization of the model.
 
-<!--
-### Related Blog Post
-
-- Read the related post on my blog: [Post Title](/blog/2026/your-post-slug/)
--->
+<!-- Add a "Related Blog Post" section here whenever you write a post in _posts/ -->
 
 ### Citation
 
