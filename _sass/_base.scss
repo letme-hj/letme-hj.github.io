@@ -404,6 +404,28 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.header-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-left: 0.65rem;
+  font-size: 1.15rem;
+  vertical-align: middle;
+
+  a {
+    text-decoration: none;
+
+    i::before {
+      color: var(--global-text-color);
+      transition: color 0.2s ease-in-out;
+    }
+
+    &:hover i::before {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

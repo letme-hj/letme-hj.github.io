@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ubc.ca/'>University of British Columbia</a>. {firstname}j@cs.ubc.ca .
+subtitle: <a href='https://www.ubc.ca/'>University of British Columbia</a> &middot; {firstname}j@cs.ubc.ca
 
 profile:
   align: right
